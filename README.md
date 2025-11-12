@@ -4,18 +4,18 @@ Welcome to the SQL Basics course! This hands-on curriculum will teach you essent
 
 ## 📚 Quick Access: All Lessons
 
-| Lesson | Topic                                         | Jupyter Notebook                                                    | Markdown                                                 | PDF                                             | Solutions                                                                                          |
-| ------ | --------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **1**  | Introduction to Databases & SQLite Setup      | [📓 Notebook](jupyter_notebook_lessons/lesson1_setup.ipynb)         | [📝 Markdown](markdown_lessons/lesson1_instructions.md)  | [📄 PDF](pdf_lessons/lesson1_instructions.pdf)  | [📓 ipynb](solutions/lesson1_setup.ipynb)<br>[📝 sql](solutions/lesson1_setup.sql)                 |
-| **2**  | Selecting and Filtering Data (SELECT & WHERE) | [📓 Notebook](jupyter_notebook_lessons/lesson2_queries.ipynb)       | [📝 Markdown](markdown_lessons/lesson2_instructions.md)  | [📄 PDF](pdf_lessons/lesson2_instructions.pdf)  | [📓 ipynb](solutions/lesson2_queries.ipynb)<br>[📝 sql](solutions/lesson2_queries.sql)             |
-| **3**  | Sorting and Limiting Results                  | [📓 Notebook](jupyter_notebook_lessons/lesson3_sorting.ipynb)       | [📝 Markdown](markdown_lessons/lesson3_instructions.md)  | [📄 PDF](pdf_lessons/lesson3_instructions.pdf)  | [📓 ipynb](solutions/lesson3_sorting.ipynb)<br>[📝 sql](solutions/lesson3_sorting.sql)             |
-| **4**  | Aggregate Functions and GROUP BY              | [📓 Notebook](jupyter_notebook_lessons/lesson4_aggregates.ipynb)    | [📝 Markdown](markdown_lessons/lesson4_instructions.md)  | [📄 PDF](pdf_lessons/lesson4_instructions.pdf)  | [📓 ipynb](solutions/lesson4_aggregates.ipynb)<br>[📝 sql](solutions/lesson4_aggregates.sql)       |
-| **5**  | Multiple Tables and Relationships             | [📓 Notebook](jupyter_notebook_lessons/lesson5_schema.ipynb)        | [📝 Markdown](markdown_lessons/lesson5_instructions.md)  | [📄 PDF](pdf_lessons/lesson5_instructions.pdf)  | [📓 ipynb](solutions/lesson5_schema.ipynb)<br>[📝 sql](solutions/lesson5_schema.sql)               |
-| **6**  | Table Joins                                   | [📓 Notebook](jupyter_notebook_lessons/lesson6_joins.ipynb)         | [📝 Markdown](markdown_lessons/lesson6_instructions.md)  | [📄 PDF](pdf_lessons/lesson6_instructions.pdf)  | [📓 ipynb](solutions/lesson6_joins.ipynb)<br>[📝 sql](solutions/lesson6_joins.sql)                 |
-| **7**  | Updating and Deleting Data                    | [📓 Notebook](jupyter_notebook_lessons/lesson7_modifications.ipynb) | [📝 Markdown](markdown_lessons/lesson7_instructions.md)  | [📄 PDF](pdf_lessons/lesson7_instructions.pdf)  | [📓 ipynb](solutions/lesson7_modifications.ipynb)<br>[📝 sql](solutions/lesson7_modifications.sql) |
-| **8**  | Advanced Queries with Subqueries              | [📓 Notebook](jupyter_notebook_lessons/lesson8_advanced.ipynb)      | [📝 Markdown](markdown_lessons/lesson8_instructions.md)  | [📄 PDF](pdf_lessons/lesson8_instructions.pdf)  | [📓 ipynb](solutions/lesson8_advanced.ipynb)<br>[📝 sql](solutions/lesson8_advanced.sql)           |
-| **9**  | Python Database Integration                   | [📓 Notebook](jupyter_notebook_lessons/lesson9_database.ipynb)      | [📝 Markdown](markdown_lessons/lesson9_instructions.md)  | [📄 PDF](pdf_lessons/lesson9_instructions.pdf)  | [📓 ipynb](solutions/lesson9_database.ipynb)<br>[🐍 py](solutions/lesson9_database.py)             |
-| **10** | ORM & Non-SQL Overview                        | [📓 Notebook](jupyter_notebook_lessons/lesson10_comparison.ipynb)   | [📝 Markdown](markdown_lessons/lesson10_instructions.md) | [📄 PDF](pdf_lessons/lesson10_instructions.pdf) | [📓 ipynb](solutions/lesson10_comparison.ipynb)<br>[📝 md](solutions/lesson10_comparison.md)       |
+| Lesson | Topic                                         | Jupyter Notebook                                   | Markdown                                                               | PDF                                                           | Solutions                                                                                          |
+| ------ | --------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **1**  | Introduction to Databases & SQLite Setup      | [📓 Notebook](lessons/lesson1_setup.ipynb)         | [📝 Markdown](other formats/markdown_lessons/lesson1_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson1_instructions.pdf)  | [📓 ipynb](solutions/lesson1_setup.ipynb)<br>[📝 sql](solutions/lesson1_setup.sql)                 |
+| **2**  | Selecting and Filtering Data (SELECT & WHERE) | [📓 Notebook](lessons/lesson2_queries.ipynb)       | [📝 Markdown](other formats/markdown_lessons/lesson2_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson2_instructions.pdf)  | [📓 ipynb](solutions/lesson2_queries.ipynb)<br>[📝 sql](solutions/lesson2_queries.sql)             |
+| **3**  | Sorting and Limiting Results                  | [📓 Notebook](lessons/lesson3_sorting.ipynb)       | [📝 Markdown](other formats/markdown_lessons/lesson3_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson3_instructions.pdf)  | [📓 ipynb](solutions/lesson3_sorting.ipynb)<br>[📝 sql](solutions/lesson3_sorting.sql)             |
+| **4**  | Aggregate Functions and GROUP BY              | [📓 Notebook](lessons/lesson4_aggregates.ipynb)    | [📝 Markdown](other formats/markdown_lessons/lesson4_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson4_instructions.pdf)  | [📓 ipynb](solutions/lesson4_aggregates.ipynb)<br>[📝 sql](solutions/lesson4_aggregates.sql)       |
+| **5**  | Multiple Tables and Relationships             | [📓 Notebook](lessons/lesson5_schema.ipynb)        | [📝 Markdown](other formats/markdown_lessons/lesson5_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson5_instructions.pdf)  | [📓 ipynb](solutions/lesson5_schema.ipynb)<br>[📝 sql](solutions/lesson5_schema.sql)               |
+| **6**  | Table Joins                                   | [📓 Notebook](lessons/lesson6_joins.ipynb)         | [📝 Markdown](other formats/markdown_lessons/lesson6_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson6_instructions.pdf)  | [📓 ipynb](solutions/lesson6_joins.ipynb)<br>[📝 sql](solutions/lesson6_joins.sql)                 |
+| **7**  | Updating and Deleting Data                    | [📓 Notebook](lessons/lesson7_modifications.ipynb) | [📝 Markdown](other formats/markdown_lessons/lesson7_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson7_instructions.pdf)  | [📓 ipynb](solutions/lesson7_modifications.ipynb)<br>[📝 sql](solutions/lesson7_modifications.sql) |
+| **8**  | Advanced Queries with Subqueries              | [📓 Notebook](lessons/lesson8_advanced.ipynb)      | [📝 Markdown](other formats/markdown_lessons/lesson8_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson8_instructions.pdf)  | [📓 ipynb](solutions/lesson8_advanced.ipynb)<br>[📝 sql](solutions/lesson8_advanced.sql)           |
+| **9**  | Python Database Integration                   | [📓 Notebook](lessons/lesson9_database.ipynb)      | [📝 Markdown](other formats/markdown_lessons/lesson9_instructions.md)  | [📄 PDF](other formats/pdf_lessons/lesson9_instructions.pdf)  | [📓 ipynb](solutions/lesson9_database.ipynb)<br>[🐍 py](solutions/lesson9_database.py)             |
+| **10** | ORM & Non-SQL Overview                        | [📓 Notebook](lessons/lesson10_comparison.ipynb)   | [📝 Markdown](other formats/markdown_lessons/lesson10_instructions.md) | [📄 PDF](other formats/pdf_lessons/lesson10_instructions.pdf) | [📓 ipynb](solutions/lesson10_comparison.ipynb)<br>[📝 md](solutions/lesson10_comparison.md)       |
 
 **Choose Your Format:**
 
@@ -217,14 +217,14 @@ Learn_SQL_Basics/
 ├── database/
 │   └── starwars.db              # Your database (created in Lesson 1)
 │
-├── jupyter_notebook_lessons/    # 📓 Interactive Jupyter Notebooks
+├── lessons/                     # 📓 Interactive Jupyter Notebooks
 │   └── lesson*.ipynb
 │
-├── markdown_lessons/            # 📝 Markdown Instructions
-│   └── lesson*_instructions.md
-│
-├── pdf_lessons/                 # 📄 PDF Documents (for printing)
-│   └── lesson*_instructions.pdf
+├── other formats/
+│   ├── markdown_lessons/        # 📝 Markdown Instructions
+│   │   └── lesson*_instructions.md
+│   └── pdf_lessons/             # 📄 PDF Documents (for printing)
+│       └── lesson*_instructions.pdf
 │
 ├── solutions/                   # ✅ Answer Keys
 │   ├── *.ipynb                  # Jupyter notebook solutions
@@ -245,7 +245,7 @@ Each lesson is available in **three formats** to suit different learning styles:
 
 ### 📓 Jupyter Notebooks (Recommended)
 
-**Location:** `jupyter_notebook_lessons/`
+**Location:** `lessons/`
 
 - **Interactive coding environment**
 - Run SQL and Python code directly
@@ -254,13 +254,13 @@ Each lesson is available in **three formats** to suit different learning styles:
 
 **How to use:**
 
-1. Navigate to `jupyter_notebook_lessons/`
+1. Navigate to `lessons/`
 2. Open `lesson1_setup.ipynb`
 3. Follow instructions and run cells as you go
 
 ### 📝 Markdown Instructions
 
-**Location:** `markdown_lessons/`
+**Location:** `other formats/markdown_lessons/`
 
 - **Step-by-step written guides**
 - Easy to read in VSCode or GitHub
@@ -269,14 +269,14 @@ Each lesson is available in **three formats** to suit different learning styles:
 
 **How to use:**
 
-1. Navigate to `markdown_lessons/`
+1. Navigate to `other formats/markdown_lessons/`
 2. Open `lesson1_instructions.md`
 3. Read and follow along
 4. Create your own `.sql` files in a `lessons/` folder
 
 ### 📄 PDF Documents
 
-**Location:** `pdf_lessons/`
+**Location:** `other formats/pdf_lessons/`
 
 - **Print-friendly format**
 - Professional formatting
@@ -285,7 +285,7 @@ Each lesson is available in **three formats** to suit different learning styles:
 
 **How to use:**
 
-1. Navigate to `pdf_lessons/`
+1. Navigate to `other formats/pdf_lessons/`
 2. Download or open `lesson1_instructions.pdf`
 3. Print or view on tablet/second screen
 
@@ -346,7 +346,7 @@ This will automatically:
 
 - Install required dependencies (if needed)
 - Convert all markdown lessons to PDF
-- Save PDFs to `pdf_lessons/` directory
+- Save PDFs to `other formats/pdf_lessons/` directory
 
 ### Manual Conversion
 
@@ -359,13 +359,13 @@ bash utils/install_dependencies.sh
 **Convert all lessons:**
 
 ```bash
-python3 utils/md_to_pdf.py --directory markdown_lessons --output-dir pdf_lessons
+python3 utils/md_to_pdf.py --directory "other formats/markdown_lessons" --output-dir "other formats/pdf_lessons"
 ```
 
 **Convert single lesson:**
 
 ```bash
-python3 utils/md_to_pdf.py --file markdown_lessons/lesson1_instructions.md --output-dir pdf_lessons
+python3 utils/md_to_pdf.py --file "other formats/markdown_lessons/lesson1_instructions.md" --output-dir "other formats/pdf_lessons"
 ```
 
 For more details, see [`utils/README.md`](utils/README.md) or [`QUICKSTART_PDF.md`](QUICKSTART_PDF.md)

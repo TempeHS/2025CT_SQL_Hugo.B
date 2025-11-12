@@ -15,7 +15,7 @@ bash utils/convert_lessons.sh
 **Or manually:**
 
 ```bash
-python3 utils/md_to_pdf.py --directory markdown_lessons --output-dir pdf_lessons
+python3 utils/md_to_pdf.py --directory "other formats/markdown_lessons" --output-dir "other formats/pdf_lessons"
 ```
 
 ## What's Been Set Up
@@ -30,8 +30,8 @@ python3 utils/md_to_pdf.py --directory markdown_lessons --output-dir pdf_lessons
 
 ✅ **Script Configuration:**
 
-- Default input directory: `markdown_lessons/`
-- Default output directory: `pdf_lessons/`
+- Default input directory: `other formats/markdown_lessons/`
+- Default output directory: `other formats/pdf_lessons/`
 - Emoji font family added to CSS
 - GitHub-style formatting
 - A4 page optimization
@@ -39,7 +39,7 @@ python3 utils/md_to_pdf.py --directory markdown_lessons --output-dir pdf_lessons
 ✅ **Successfully Tested:**
 
 - All 10 lessons converted successfully
-- PDFs saved to `pdf_lessons/` directory
+- PDFs saved to `other formats/pdf_lessons/` directory
 - Emoji support enabled
 
 ## Features
@@ -89,13 +89,13 @@ utils/
 To use Mode 2:
 
 ```bash
-python3 utils/md_to_pdf.py --directory markdown_lessons --page-break-mode continuous
+python3 utils/md_to_pdf.py --directory "other formats/markdown_lessons" --page-break-mode continuous
 ```
 
 ## Next Steps
 
 1. ✅ All 10 lessons have been converted
-2. Check `pdf_lessons/` directory for the PDFs
+2. Check `other formats/pdf_lessons/` directory for the PDFs
 3. PDFs are ready for distribution to students
 4. Re-run conversion anytime lessons are updated
 
